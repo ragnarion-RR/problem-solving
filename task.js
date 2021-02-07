@@ -81,36 +81,20 @@
 
 
 
-
-
 // 2. Определите переменные str, num, flag и txt со значениями 
 // «Привет», 123, true, «true». При помощи оператора определения
 //  типа убедитесь, что переменных принадлежат типам: 
 //  string, number, boolean.
 
+// const str = 'Привет'
+// const num = 123
+// const flag = true
+// const txt = 'true'
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// console.log(typeof(str))
+// console.log(typeof(num))
+// console.log(typeof(flag))
+// console.log(typeof(txt))
 
 
 
@@ -123,6 +107,21 @@
 // 5 * 3,
 // 5 / 3,
 
+// const a1 = 1
+// let a2 = 2
+// const a3 = 3
+// const a4 = 4
+// const a5 = 5
+
+// console.log(parseFloat((a3+a5).toFixed(1)))
+// console.log(parseFloat((a5-a3).toFixed(1)))
+// console.log(parseFloat((a5*a3).toFixed(1)))
+// console.log(parseFloat((a5/a3).toFixed(3)))
+
+
+
+
+
 // 4.Создайте переменные a6, a7, a8, a9, a10.
 //  Поместите в них результат выражений:
 // 5 % 3,
@@ -131,17 +130,53 @@
 // '5' - 3,
 // 75 + 'кг'
 
+// const a6 = (5%3)
+// const a7 = (3%5)
+// const a8 = (5 + '3')
+// const a9 = ('5' - 3)
+// const a10 = (75 + 'кг')
+
+// console.log([a6,a7,a8,a9,a10])
+
+
+
+
 // 5.Напишите скрипт, который находит площадь прямоугольника
 //  высота 23см. (в числовую переменную height), шириной 10см 
 //  (в числовую переменную width), значение площади должно 
 //  хранится в числовой переменной s.
 
+// const height = 23
+// const width = 10
+// const s = (height*width)
+
+// console.log(s,'см')
+
+
+
+
+
+
 // 6.Напиши скрипт, который находит объем цилиндра высотой 10м 
 // (переменная heightC) и диаметром основания 4м (dC), 
 // результат поместите в переменную v.
+
+// const heightC = 10
+// const dC = 4
+// const v = (Math.PI*Math.pow(dC/2,2)*heightC)
+
+// console.log(v,'м')
+
+
 
 // 7.У прямоугольного треугольника две стороны n (со значением 3) 
 // и m (со значением 4). Найдите гипотенузу k по 
 // теореме Пифагора (нужно использовать функцию 
 //   Math.pow(число, степень) или оператор возведения 
 //   в степень ** ).
+
+// const n = 3
+// const m = 4
+// const k = (Math.pow(3,2)+Math.pow(4,2))
+
+// console.log(Math.sqrt(k))
